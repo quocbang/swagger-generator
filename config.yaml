@@ -1,0 +1,15 @@
+swagger-version: "2.0"
+default-info:
+  version: "1.1.1"
+  description: |
+    This project RESTful API specification for Teqnological
+    The default response of each API endpoints are based on HTTP Status Code Standardization, e.g:
+      - 400 (Bad Request)
+      - 401 (Unauthorized)
+      - 403 (Forbidden)
+      - 408 (Request Timeout)
+      - 500 (Internal Server Error)
+  contact:
+    email: "contact@teqnological.asia"
+  license:
+    name: "Copyright © 2023 Teqnological Asia Co,.Ltd"

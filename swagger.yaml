@@ -1,0 +1,38 @@
+version: "2.0"
+info:
+    version: 1.1.1
+    title: ""
+    description: This project RESTful API specification for Teqnological
+    contact: contact@teqnological.asia
+schemes: https
+options:
+    basepath: /api
+    consumes: application/json
+tag:
+    - name: Account
+      description: account service
+    - name: Message
+      description: message service
+definitions: {}
+response: {}
+path:
+    url: /user/login
+    setup:
+        summary: login
+        description: login to server
+        tags:
+            - Account
+        operationid: Login
+        security: []
+        parameters:
+            - in: body
+              name: body
+              required: true
+              description: login to server
+              schema:
+                ref: ""
+        responses:
+            default:
+                description: OK
+                schema:
+                    ref: ""
